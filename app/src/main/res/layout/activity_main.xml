@@ -70,24 +70,25 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="183dp"
+        android:layout_height="45dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:text="Ingresar"
+        android:background="@drawable/efecto_btn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="183dp"
+        android:layout_height="45dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:text="Cancelar"
+        android:background="@drawable/efecto_btn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline2" />
@@ -99,12 +100,12 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="64dp"
+        android:onClick="onClick"
         android:text="Boton usando onclcik"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        android:onClick="onClick"/>      <!--Forma 3 (Evento onClick)-->
+        app:layout_constraintStart_toStartOf="parent" />      <!--Forma 3 (Evento onClick)-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
