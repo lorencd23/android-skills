@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         String cad = "Seleccionado:  \n";
 
         if(c1.isChecked()){
-            cad+="Opcion1";
+            cad+="Opcion1\n";
         }
 
         if(c2.isChecked()){
