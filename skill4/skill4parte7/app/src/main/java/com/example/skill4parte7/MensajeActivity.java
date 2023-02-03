@@ -21,8 +21,8 @@ public class MensajeActivity extends AppCompatActivity {
 
         if(miBundle != null){
             String nombre = miBundle.getString("nombre");
-
-            msj.setText("Bienvenido: " + nombre);
+            String msj_string = getString(R.string.text_msj_bienvenido);
+            msj.setText(msj_string + " " + nombre);
         }
 
     }
